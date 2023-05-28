@@ -1,0 +1,176 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.App {
+  text-align: center;
+  min-height: 100vh;
+  height: 100%;
+}
+
+.menu_font {
+  font-size: calc(4px + 2vmin);
+}
+
+.main_div {
+  width:100%;
+  min-height: 100vh;
+  background-color:rgb(255, 255, 255);
+}
+
+.main_layout {
+  width:100%;
+  min-height: 80vh;
+  height:100%;
+  
+}
+
+.headermain {
+  border-color: rgb(175, 129, 69);
+  background-color: rgb(255, 253, 253);
+  height: 10vh;
+}
+.headerside {
+  border-color: burlywood;
+  background-color: rgb(58, 53, 53);
+  height: 10vh;
+}
+
+.bodymain {
+  border-color: rgb(175, 129, 69);
+  background-color: rgb(255, 253, 253);
+  height: 90vh;
+}
+
+.bodyside {
+  border-color: burlywood;
+  background-color: rgb(58, 53, 53);
+  height: 90vh;
+}
+
+.statusbar {
+  background-color: rgb(80, 82, 81);
+  height: 10vh;
+}
+
+
+.BrailleInput
+{
+  border-color: black;
+  font-size: calc(2px + 3vmin);
+  height:70vh;
+}
+.BrailleInputTable
+{
+
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  /*font-size: calc(10px + 8vmin);*/
+  scale: 2;
+}
+
+.BrailleDotInput {
+
+  text-align: center;
+}
+
+.ModalView {
+  font-size: 2em;
+  font-weight: bolder;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1em;
+  min-height: 100%;
+}
+
+.BrailleView {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1em;
+  min-height: 100%;
+}
+.BigBraille {
+  font-size: calc(10px + 18vmin);
+}
+
+.BrailleOutput {
+    font-size: calc(1em + 0.8vw);
+    min-height: 100%;
+    background-color: white;
+}
+
+
+.pad-button {
+  
+  margin-left: 0.4em;
+  margin-right: 0.4em;
+  padding: 0.5em !important;
+  border-width: 0.1em !important;
+  border-style: hidden !important ;
+  border-radius: 4px !important;
+}
+.pad-button:focus {
+  border:black !important;
+  border-width: 0.1em !important;
+  border-style: solid !important;
+  
+}
+
+.divcolor {
+  border-color: burlywood;
+  background-color: red;
+}
+.divwhite {
+  border-color: rgb(175, 129, 69);
+  background-color: rgb(255, 253, 253);
+  
+}
+
+.divred {
+  border-color: burlywood;
+  background-color: red;
+}
+.divblue {
+  border-color: burlywood;
+  background-color: aqua;
+}
+.divblack {
+  border-color: burlywood;
+  background-color: rgb(58, 53, 53);
+  
+}
+
+.formparam {
+  text-align: left;
+  width:90%;
+  margin-left: 5%;
+  margin-right:5%;
+  
+}
+.formparam h1
+{
+  text-align: left;
+  margin-left: 20%;
+}
+.formparam p
+{
+  text-align: left;
+  margin-left: 20%;
+}
+.selectbraille {
+   width:50%; 
+}
+
+svg {cursor: default;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; } /* whole rectangle */
+

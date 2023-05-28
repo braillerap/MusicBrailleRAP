@@ -1,0 +1,45 @@
+{
+  "name": "music-braillerap",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "file-saver": "^2.0.5",
+    "purecss": "^3.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-intl": "^6.3.2",
+    "react-intl-cli": "^0.1.2",
+    "react-modal": "^3.16.1",
+    "react-router-dom": "^6.4.3",
+    "react-scripts": "5.0.1"
+  },
+  "scripts": {
+    "start:js": "react-scripts start",
+    "build:js": "react-scripts build",
+    "start:eel": "python index.py --develop",
+    "build:eel": "python -m eel index.py build --onefile --noconsole --name MusicBrailleRAP --clean --icon=favicon-32x32.ico",
+    "clean:build": "rm -rf build dist",
+    "start": "npm-run-all -p start:*",
+    "build": "npm-run-all clean:build build:*",
+    "buildp": "npm-run-all build:*",
+    "extract": "react-intl-cli  extract -l fr,en -d fr ",
+    "extracth": "react-intl-cli  extract -h",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
